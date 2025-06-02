@@ -16,6 +16,7 @@
     font-weight: 300;
     font-style: normal;
      box-shadow: 0 13px 20px rgba(0, 0, 0, 0.2);
+     position: fixed;
 }
 .conteudo {
     background: linear-gradient(135deg, #b6683b, #cc6520, #b63827);
@@ -36,6 +37,7 @@ a:hover {
 .rodape-home{
     width: 100%;
     height: 200px;
+    background-color: #535353;
 }
 
 .foto-home{
@@ -67,4 +69,70 @@ a:hover {
     font-style: normal;
     color: white;
     font-size: 40px;
+}
+/* 
+CSS DA PAGINA CONTATO */
+
+
+.conteudo-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    min-height: 100vh;
+    background-color: #b6683b;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+.container {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 13px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.containerenvio {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.titulo-container{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+
+}
+
+.input-telefone{
+    width: 400px;
+    height: 50px;
+    border: 1px solid #b6683b;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.input-nome{
+    width: 400px;
+    height: 50px;
+    border: 1px solid #b6683b;
+    border-radius: 5px;
+    text-align: center;
+}
+.input-mensagem{
+    width: 400px;
+    height: 50px;
+    border: 1px solid  #b6683b;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn-enviar {
+    width: 100px;
+    font-size: 17px;
+    height: 40px;
+    border: 1px solid#b6683b;
+    border-radius: 20px;
 }
