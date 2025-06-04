@@ -230,24 +230,32 @@ h4 {
     padding: 20px;
 
 }
-    table {
+table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 20px;
       background-color: #ffffff;
-    }
-    th, td {
+ }
+th, td {
       border: 1px solid #cce3d8;
       padding: 12px;
       text-align: left;
-    }
-    th {
+}
+th {
       background-color: #9c7727;
       color: white;
-    }
-    tr:nth-child(even) {
+}
+tr:nth-child(even) {
       background-color: #f9f8f2;
-    }
-    tr:hover {
+}
+tr:hover {
       background-color: #fff3b0;
-    }
+}
+
+p{
+    text-align: center;
+}
+.btn-voltar-contato{
+    display: flex;
+    justify-content: center;
+}
